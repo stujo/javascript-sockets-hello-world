@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stujo/javascript-sockets-hello-world",
   "dependencies": {
-    "express": "^4.10.2"
+    "express": "^4.10.2",
+    "socket.io": "^1.3.6"
   }
 }
