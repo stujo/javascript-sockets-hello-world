@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "My first socket.io app",
-  "author": "stujo",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,12 @@
     "type": "git",
     "url": "https://github.com/stujo/javascript-sockets-hello-world"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stujo/javascript-sockets-hello-world/issues"
   },
-  "homepage": "https://github.com/stujo/javascript-sockets-hello-world"
+  "homepage": "https://github.com/stujo/javascript-sockets-hello-world",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
 }
