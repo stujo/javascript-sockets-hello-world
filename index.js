@@ -17,6 +17,13 @@ io.on('connection', function(socket){
     console.log('message: ' + msg);
   });
 
+  socket.on('chat message', function(msg){
+    // To exclude this socket..
+    // socket.broadcast.emit('chat message', msg);
+    // To send to everyone
+    io.emit('chat message', msg);
+  });
+
 });
 
 
